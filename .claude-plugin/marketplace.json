@@ -1,0 +1,18 @@
+{
+  "name": "claude-workflow-manager-marketplace",
+  "description": "Plugin marketplace hosting Workflow Manager for Claude Code.",
+  "owner": {
+    "name": "Tomasz Maciag",
+    "email": "tomash.maciag@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "workflow-manager",
+      "source": "github.com/claude-workflow-manager/claude-workflow-manager",
+      "description": "Structured workflow manager for Claude Code — discovery, planning, execution, and release with explicit state and gates.",
+      "category": "workflow",
+      "tags": ["workflow", "process", "planning", "release"],
+      "license": "MIT"
+    }
+  ]
+}
